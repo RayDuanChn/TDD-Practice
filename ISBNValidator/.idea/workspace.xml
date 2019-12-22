@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd40dc91-b5da-43b2-bd7a-443a42e38aa6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_api_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/test_driven_development/com/tdd/isbntools/ValidateISBN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/test_driven_development/com/tdd/isbntools/ExampleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/test_driven_development/com/tdd/isbntools/ValidateISBNTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tdd/isbntools/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tdd/isbntools/ExternalISBNDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tdd/isbntools/StoreManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tdd/isbntools/ValidateISBN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tdd/isbntools/ExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tdd/isbntools/StoreManagementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tdd/isbntools/ValidateISBNTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_driven_development.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1USHvgPNhITukKqMGRvZVOYDPaV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tdd.isbntools" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StoreManagementTest">
+    <configuration name="StoreManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tdd.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tdd.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.tdd.isbntools.StoreManagementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateISBNTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tdd.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tdd.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.tdd.isbntools.ValidateISBNTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateISBNTest.ISBMNumbersEndingInAnXAreValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tdd.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tdd.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.tdd.isbntools.ValidateISBNTest" />
+      <option name="METHOD_NAME" value="ISBMNumbersEndingInAnXAreValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateISBNTest.checkAnInValid13DigitsISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tdd.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tdd.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.tdd.isbntools.ValidateISBNTest" />
+      <option name="METHOD_NAME" value="checkAnInValid13DigitsISBN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateISBNTest.checkValid13DigitsISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tdd.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tdd.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.tdd.isbntools.ValidateISBNTest" />
+      <option name="METHOD_NAME" value="checkValid13DigitsISBN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StoreManagementTest" />
+        <item itemvalue="JUnit.ValidateISBNTest" />
+        <item itemvalue="JUnit.ValidateISBNTest.checkValid13DigitsISBN" />
+        <item itemvalue="JUnit.ValidateISBNTest.checkAnInValid13DigitsISBN" />
+        <item itemvalue="JUnit.ValidateISBNTest.ISBMNumbersEndingInAnXAreValid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd40dc91-b5da-43b2-bd7a-443a42e38aa6" name="Default Changelist" comment="" />
+      <created>1575343308921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575343308921</updated>
+      <workItem from="1575343313005" duration="1893000" />
+      <workItem from="1575427000905" duration="1885000" />
+      <workItem from="1575515543336" duration="3118000" />
+      <workItem from="1575575983352" duration="3223000" />
+      <workItem from="1575601795437" duration="2548000" />
+      <workItem from="1575642200529" duration="170000" />
+      <workItem from="1575650092523" duration="7801000" />
+      <workItem from="1575690138402" duration="2453000" />
+      <workItem from="1575769254785" duration="1540000" />
+      <workItem from="1575828775128" duration="599000" />
+      <workItem from="1575854578619" duration="6339000" />
+      <workItem from="1575901058715" duration="4023000" />
+      <workItem from="1575940219219" duration="73000" />
+      <workItem from="1576010174906" duration="2431000" />
+      <workItem from="1576023575520" duration="42000" />
+      <workItem from="1576027006536" duration="601000" />
+      <workItem from="1576077488675" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
