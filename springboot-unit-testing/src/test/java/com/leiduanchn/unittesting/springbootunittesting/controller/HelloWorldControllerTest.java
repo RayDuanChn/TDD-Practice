@@ -12,6 +12,8 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
  * lunching spring is a integration test. Here I only want to lunch this controller by spring mock MVC framework
@@ -35,10 +37,15 @@ class HelloWorldControllerTest {
                 .get("/hello-world")
                 .accept(MediaType.APPLICATION_JSON);    //response type which expect back
 
-        MvcResult result = mockMvc.perform(request).andReturn();
+        MvcResult result = mockMvc.perform(request)
+                .andExpect(status().isOk())     // verify status code  isOk() == is(200)
+                .andExpect(content().string("Hello World!"))    //verify return content,  content().json
+                .andReturn();   // has return value
 
         //verify "Hello World!"
         assertEquals("Hello World!", result.getResponse().getContentAsString());
 
     }
+
+
 }
