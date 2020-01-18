@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * @author leiduanchn
  * @create 2019-12-24 10:34 p.m.
@@ -24,5 +26,10 @@ public class ItemController {
     @GetMapping("/item/from-service")
     public Item itemFromService(){
         return itemBusinessService.retrieveItem();
+    }
+
+    @GetMapping("/all-item-from-database")
+    public List<Item> retrieveAllItems(){
+        return itemBusinessService.retrieveAllItems();
     }
 }

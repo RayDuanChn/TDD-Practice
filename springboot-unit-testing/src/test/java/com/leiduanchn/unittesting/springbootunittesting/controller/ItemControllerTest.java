@@ -14,6 +14,8 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -22,7 +24,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * Controller unit test
- *
+ * <p>
  * lunching spring is a integration test. Here I only want to lunch this controller by spring mock MVC framework
  *
  * @author leiduanchn
@@ -30,7 +32,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  */
 
 //when using JUnit 4, should be add @RunWith(SpringRunner.class)
-@WebMvcTest(ItemController.class)   //MVC tests
+@WebMvcTest(ItemController.class)
+        //MVC tests
 class ItemControllerTest {
 
     @Autowired
@@ -81,6 +84,7 @@ class ItemControllerTest {
          */
         JSONAssert.assertEquals(expected, actual, true);
     }
+
     @Test
     public void jsonAssert_strictFalse() throws JSONException {
         String actual = "{id:1, name:ball, price:9, quality:100}";
@@ -107,6 +111,25 @@ class ItemControllerTest {
         MvcResult result = mockMvc.perform(request)
                 .andExpect(status().isOk())     // verify status code  isOk() == is(200)
                 .andExpect(content().json("{\"id\": 1,\"name\":\"ball2\",\"price\":10}"))    //verify return content
+                .andReturn();   // has return value
+    }
+
+    @Test
+    public void retrieveAllItemsTest() throws Exception {
+        when(service.retrieveAllItems()).thenReturn(
+                Arrays.asList(
+                        new Item(1, "ball2", 10, 100),
+                        new Item(2, "ball3", 5, 25)
+                )
+        );
+
+        RequestBuilder request = MockMvcRequestBuilders
+                .get("/all-item-from-database")
+                .accept(MediaType.APPLICATION_JSON);    //response type which expect back
+
+        MvcResult result = mockMvc.perform(request)
+                .andExpect(status().isOk())     // verify status code  isOk() == is(200)
+                .andExpect(content().json("[{id:1, name:ball2, price:10}, {id: 2, name:ball3, price:5, quality: 25}]", true))   //Json array format
                 .andReturn();   // has return value
     }
 }
